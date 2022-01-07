@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Prata&display=swap');
+
+:root{
+    --light-gray: #2e3038;
+    --yellow: #fae750;
+}
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+body::before {
+    content: '';
+    display: block;
+    height: 60px;
+}
+/* navbar decoration */
+.navbar-brand,
+.custom-font {
+    font-family: 'Prata', serif !important;
+}
+.navbar-toggler{
+    border: none;
+    border-color: transparent !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.bg-custom{
+    background-color: var(--light-gray) !important;
+}
+.custom-btn{
+    display: inline-block;
+    font-family: 'Prata', serif;
+    background-color: var(--yellow);
+    padding: .7rem 1.7rem;
+    text-decoration: none;
+    color: #000000 !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.custom-btn:hover{
+    color: #000000;
+    background-color: #cfbf45;
+}
+footer{
+    background-color: #2e3038;
+}
